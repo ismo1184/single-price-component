@@ -71,11 +71,15 @@ body {
     ;
 }
 
+.price-component {
+    border-radius: 2%;
+    overflow: hidden;
+}
 
 
 .intro {
     max-width: 600px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: white;
     padding: 10px 30px;
 
@@ -109,11 +113,50 @@ body {
     flex-direction: row;
     max-width: 600px;
 
-    border: 1px solid blue;
+
+    /* 
+    border: 1px solid blue; */
 }
 
 .signup {
     min-width: 50%;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 62%, 43%);
+    /* border-right: 1px solid black; */
+}
+
+.signup h2 {
+    color: white;
+    margin: 20px 30px;
+}
+
+.signup p {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.signup button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 15px 86px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    border-radius: 2.5%;
+    border: none;
+}
+
+.signup .price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.per-month {
+    color: hsla(203, 44%, 93%, 0.797)
 }
 
 .whyUs {
