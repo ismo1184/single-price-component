@@ -96,9 +96,26 @@ body {
     margin-bottom: 10px;
 }
 
-p {
+.intro p {
     font-size: 1rem;
     color: hsl(218, 22%, 67%);
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+
+    border: 1px solid blue;
+}
+
+.signup {
+    min-width: 50%;
+}
+
+.whyUs {
+    min-width: 50%;
 }
