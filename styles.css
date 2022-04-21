@@ -105,6 +105,7 @@ body {
     color: hsl(218, 22%, 67%);
     line-height: 1.5;
     margin-bottom: 20px;
+    padding-right: 30px;
 }
 
 
@@ -127,7 +128,11 @@ body {
 
 .signup h2 {
     color: white;
-    margin: 20px 30px;
+    font-weight: 700;
+    /* margin: 20px 30px; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .signup p {
@@ -139,13 +144,21 @@ body {
 
 .signup button {
     margin-left: 30px;
-    margin-bottom: 20px;
-    padding: 15px 86px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 15px 84px;
     background-color: hsl(71, 73%, 54%);
     color: white;
     font-weight: 700;
-    border-radius: 2.5%;
+    border-radius: 2%;
     border: none;
+    transition: ease-in-out background-color 500ms;
+}
+
+.signup button:hover {
+    color: white;
+    background-color: hsl(71, 85%, 33%);
+
 }
 
 .signup .price {
@@ -161,4 +174,53 @@ body {
 
 .whyUs {
     min-width: 50%;
+    background-color: hsla(179, 62%, 43%, 0.783);
+
+}
+
+.whyUs h2 {
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.whyUs p {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: hsl(204, 43%, 93%);
+    line-height: 1.2;
+}
+
+@media (max-width: 530px) {
+
+    .price-component {
+        max-width: 310px;
+    }
+
+    .intro {
+        width: 100%;
+
+    }
+
+
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup {
+        max-width: 100%;
+    }
+
+    .whyUs {
+        max-width: 100%;
+    }
+
+
+
 }
